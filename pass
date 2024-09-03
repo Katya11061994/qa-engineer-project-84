@@ -24,10 +24,6 @@
  status: pass
 
 - summary: |
-    Кликабельность ссылок
- status: pass
-
-- summary: |
     Выбор нужного количества товара при добавлении его в корзину
  status: pass
 
