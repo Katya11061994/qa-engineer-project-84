@@ -193,7 +193,37 @@
   prerequisites:
     Открыт сайт "Hexlet Store"
   steps:
-    - С помощью Devtools
+    - С помощью Devtools провериьт адаптивность сайта к мобильным устройствам
   expected-result: |
-   В URL страницы указан протокол HTTPS
+   Сайт должен адаптировться под мобильные устройств
+
+- summary: |
+    Кроссбраузерность
+  requirement: |
+    Сайт нужно протестировать на совместимость с последними версиями браузеров
+  test-data: |
+    Браузеры: Google Chrome, Safari, Firefox
+  prerequisites:
+    Открыт сайт "Hexlet Store"
+  steps:
+    - Открыть сайт через Google Chrome
+    - Открыть сайт через Safari
+    - Открыть сайт через Firefox
+  expected-result: |
+    Сайт корректно отображается на вышеуказанных браузерах
+
+- summary: |
+    Кроссбраузерность
+  requirement: |
+    Важно, чтобы сайт мог обрабатывать большое количество трафика
+  test-data: |
+    Браузеры: Google Chrome, Safari, Firefox
+  prerequisites:
+    Открыт сайт "Hexlet Store"
+  steps:
+    - Открыть сайт через Google Chrome
+    - Открыть сайт через Safari
+    - Открыть сайт через Firefox
+  expected-result: |
+    Сайт корректно отображается на вышеуказанных браузерах
     
