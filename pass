@@ -24,10 +24,6 @@
  status: pass
 
 - summary: |
-    Исправление количества товара добавленного в корзину
- status: pass
-
-- summary: |
     Очищение корзины после оформления заказа
  status: pass
 
@@ -36,21 +32,9 @@
  status: pass
 
 - summary: |
-    Подтверждение добавления товара
- status: pass
-
-- summary: |
-    Качество изображений
- status: pass
-
-- summary: |
     Просмотр изображений товара
  status: pass
 
 - summary: |
     Кликабельность ссылок
- status: pass
-
-- summary: |
-    Кликабельность кнопки с названием магазина 
  status: pass
