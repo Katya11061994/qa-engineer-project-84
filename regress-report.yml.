@@ -1,1 +1,12 @@
+---
+test-cases:
+  - summary: |
+      Рейтинг не видно в каталоге
+    status: pass
 
+  - summary: |
+      Нет функции оплаты
+    status: pass
+
+  - summary: |
+      Медленная загрузка изображений
