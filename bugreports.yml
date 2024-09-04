@@ -54,7 +54,7 @@
   actual-result: |
     Верста полетела на iPhone,  Samsung, Pixel, Galaxy
 
-    - summary: |
+- summary: |
     Сайт не адаптивен к планшетам, мобильным устройствам и ноутбукам
   environment: |
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
