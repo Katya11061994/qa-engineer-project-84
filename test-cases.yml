@@ -8,7 +8,7 @@
   test-data: |
     Ключевое слово - Apple
   steps:
-    - Вводим в поле ввода - Apple
+    - Вводим в поле ввода "Search " значение "Apple"
   expected-result: |
     Пользователь должен увидеть товар - Apple
     
