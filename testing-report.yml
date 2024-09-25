@@ -9,7 +9,7 @@
 
 - summary: |
     Фильтрация по цене
-  status: pass
+  status: fail
 
 - summary: |
     Просмотр товаров в общем каталоге
