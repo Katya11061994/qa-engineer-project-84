@@ -59,4 +59,4 @@ bugreports:
     expected-result: |
       Видно товары отфильтрованные заданным диапазоном
     actual-result: |
-      Рамка товара  "Green Chili Pepper" стала узкой и кнопка "Add to cart" съехала
+      Рамка товара  "Green Chili Pepper" стала узкой и кнопка "Add to cart" съехала ( скриншот "Съехала кнопка добавления на перце" )
