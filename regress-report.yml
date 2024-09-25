@@ -7,6 +7,10 @@ test-cases:
   - summary: |
       В общем каталоге не виден рейтинг
     status: fail
+
+  - summary: |
+      Постраничность каталога
+    status: fail
     
   - summary: |
       Нет функции оплаты
