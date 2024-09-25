@@ -12,8 +12,8 @@
   status: pass
 
 - summary: |
-    Просмотр товаров
-  status: pass
+    Просмотр товаров в общем каталоге
+  status: fail
 
 - summary: |
     Просмотр описания товаров
