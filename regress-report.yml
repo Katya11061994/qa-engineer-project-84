@@ -1,6 +1,10 @@
 ---
 test-cases:
   - summary: |
+      Поля ввода "Price" работают не корректно
+    status: fail
+
+  - summary: |
       В общем каталоге не виден рейтинг
     status: fail
     
@@ -44,4 +48,15 @@ test-cases:
       Окно заказа нельзя закрыть путем нажатия крестика
     status: fail
 
-bugreports: []
+bugreports:
+  - summary: |
+      Кнопка "Add to cart" съехала с рамки товара при фильтрации по цене
+    environment: |
+      Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
+    ОС Linux 22.04
+    steps-to-reproduce: |
+     - Вести в поле ввода "Price" диапазон от 0 до 1.29
+    expected-result: |
+      Видно товары отфильтрованные заданным диапазоном
+    actual-result: |
+      Рамка товара  "Green Chili Pepper" стала узкой и кнопка "Add to cart" съехала
