@@ -1,6 +1,10 @@
 ---
 test-cases:
   - summary: |
+      В общем каталоге не виден рейтинг
+    status: fail
+    
+  - summary: |
       Нет функции оплаты
     status: fail
   
