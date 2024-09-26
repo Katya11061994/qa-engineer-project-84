@@ -49,7 +49,7 @@
 
 - summary: |
     Добавление разных товаров в количестве двух и более
-  status: pass
+  status: fail
 
 - summary: |
     Проверка запросов в Devtools
