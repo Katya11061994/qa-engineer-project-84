@@ -86,7 +86,7 @@ test-cases:
 
   - summary: |
       Перевод сайта на русский язык
-     status: fail
+    status: fail
 
   - summary: |
       Перевод сайта на английский язык
